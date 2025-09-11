@@ -7,7 +7,7 @@ body {
 }
 
 .fundido {
-  background-color: #fbf1e6 !important;
+  background-color: #fdf2f8 !important;
   width: 50px;
   height: 50px;
 }
@@ -71,8 +71,8 @@ body {
 }
 
 .nav-link.btn.btn-link:hover {
-  background-color: rgba(55, 65, 81, 0.1);
-  color: #1d4ed8 !important;
+  background-color: rgba(236, 72, 153, 0.1);
+  color: #ec4899 !important;
 }
 
 /* Garantir altura uniforme nos componentes Valores */

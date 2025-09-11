@@ -14,16 +14,16 @@ const App = () => {
         <section id="home" className="section-spacing">
           <div className="container">
             <div className="d-flex flex-column justify-content-center align-items-center">
-              <h3 className="text-center bg-primary text-white p-3 fs-6 rounded-3 d-flex gap-2">
+              <h3 className="text-center bg-secondary text-white p-3 fs-6 rounded-3 d-flex gap-2">
                 <i className="bi bi-leaf"></i>
                 Sustentabilidade & Diversão
               </h3>
               <div className="display-3 text-center">
                 <span className="fw-bold">
                   Produtos infantis <br /> sustentáveis que unem <br />{" "}
-                  <span className="text-body-tertiary">educação,</span>
-                  <span className="text-primary">diversão </span> e <br />{" "}
-                  <span className="text-primary">cuidado com o planeta</span>
+                  <span className="text-primary">educação,</span>
+                  <span className="text-secondary">diversão </span> e <br />{" "}
+                  <span className="text-secondary">cuidado com o planeta</span>
                 </span>
                 <p className="fs-5 mt-4 text-center fw-medium">
                   Na Curumim Kids, acreditamos que brincar e aprender podem
@@ -32,7 +32,7 @@ const App = () => {
               </div>
               <div className="d-flex gap-3 mt-4">
                 <button
-                  className="btn btn-primary btn-lg rounded-3"
+                  className="btn btn-primary text-white btn-lg rounded-3"
                   onClick={() =>
                     document
                       .getElementById("sobre-nos")
@@ -135,7 +135,7 @@ const App = () => {
                   />
                 </div>
               </div>
-              <span className="fs-6 text-secondary text-center mt-4">
+              <span className="fs-6  text-center mt-4">
                 * Os preços podem sofrer alteração.
               </span>
             </div>
