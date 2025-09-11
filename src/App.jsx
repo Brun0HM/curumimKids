@@ -111,21 +111,43 @@ const App = () => {
           </div>
           <div className="d-flex gap-3 justify-content-center flex-wrap mt-4">
             <div className="d-flex gap-3 mt-4 mb-5 ">
-              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
-                <i className="bi bi-facebook text-primary fs-4"></i> @Curumim
-                Kids
-              </div>
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+              >
+                <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                  <i className="bi bi-facebook text-primary fs-4"></i> @Curumim
+                  Kids
+                </div>
+              </a>
             </div>
             <div className="d-flex gap-3 mt-4 mb-5 ">
-              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
-                <i className="bi bi-tiktok text-primary fs-4"></i> @Curumim_Kids
-              </div>
+              <a
+                href="https://tiktok.com/@curumim_kids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+              >
+                <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                  <i className="bi bi-tiktok text-primary fs-4"></i>{" "}
+                  @Curumim_Kids
+                </div>
+              </a>
             </div>
             <div className="d-flex gap-3 mt-4 mb-5 ">
-              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
-                <i className="bi bi-instagram text-primary fs-4"></i>{" "}
-                @Curumim_Kids
-              </div>
+              <a
+                href="https://instagram.com/curumim__kids"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-decoration-none"
+              >
+                <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                  <i className="bi bi-instagram text-primary fs-4"></i>{" "}
+                  @Curumim__Kids
+                </div>
+              </a>
             </div>
           </div>
         </div>
