@@ -12,6 +12,69 @@ body {
   height: 50px;
 }
 
+/* Header com efeito blur */
+.header-blur {
+  background: rgba(254, 252, 232, 0.9) !important;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(55, 65, 81, 0.1);
+  z-index: 1000;
+}
+
+/* Espaçamento para compensar o header fixo */
+.main-content {
+  padding-top: 80px;
+}
+
+/* Separação entre seções */
+.section-spacing {
+  padding: 100px 0;
+}
+
+.section-spacing:first-child {
+  padding-top: 50px;
+}
+
+/* Responsividade do menu */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background: rgba(254, 252, 232, 0.98);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-nav .nav-item {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .main-content {
+    padding-top: 70px;
+  }
+
+  .section-spacing {
+    padding: 60px 0;
+  }
+}
+
+/* Botões do nav */
+.nav-link.btn.btn-link {
+  color: #374151 !important;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link.btn.btn-link:hover {
+  background-color: rgba(55, 65, 81, 0.1);
+  color: #1d4ed8 !important;
+}
+
 /* Garantir altura uniforme nos componentes Valores */
 .row.valores-container {
   align-items: stretch;
