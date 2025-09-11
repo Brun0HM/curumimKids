@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Valores from "./components/Valores";
+import CardProdutos from "./components/CardProdutos";
 
 const App = () => {
   return (
@@ -62,6 +63,69 @@ const App = () => {
                 title="Valores"
                 descricao="Sustentabilidade, educação, diversão, qualidade, responsabilidade social e amor pelo planeta que deixaremos para as próximas gerações."
               />
+            </div>
+          </div>
+          <div className="text-center mt-5">
+            <h1 className="fw-bold">Nossos Produtos</h1>
+            <span className="fs-5">
+              Cada produto é desenvolvido com carinho e responsabilidade
+              ambiental, garantindo diversão e aprendizado para as crianças.
+            </span>
+          </div>
+          <div className="row g-4 mt-5 w-100 valores-container">
+            <div className="col-12 col-md-6 col-lg-4">
+              <CardProdutos
+                produto="https://placehold.co/180x192"
+                title="Livro Interativo Sustentável"
+                preco="R$ 62,00"
+                descricao="Um livro feito com papel reciclado, cheio de atividades educativas sobre sustentabilidade."
+              />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CardProdutos
+                produto="https://placehold.co/180x192"
+                title="Twister Sustentável"
+                preco="R$ 30,00"
+                descricao="Versão sustentável do clássico jogo Twister, feito com materiais recicláveis."
+              />
+            </div>
+            <div className="col-12 col-md-6 col-lg-4">
+              <CardProdutos
+                produto="https://placehold.co/180x192"
+                title="Boliche Sustentável"
+                preco="R$ 25,00"
+                descricao="Jogo de boliche ecológico que desenvolve coordenação motora e diversão em família."
+              />
+            </div>
+            <span className="fs-6 text-secondary text-center">
+              * Os preços podem sofrer alteração.
+            </span>
+          </div>
+          <div className="text-center mt-5">
+            <h1 className="fw-bold">Contato</h1>
+            <span className="fs-5">
+              Interessado em encomendas personalizadas? Entre em contato conosco
+              através das nossas redes sociais! Estamos sempre prontos para
+              criar produtos únicos que atendam às suas necessidades.
+            </span>
+          </div>
+          <div className="d-flex gap-3 justify-content-center flex-wrap mt-4">
+            <div className="d-flex gap-3 mt-4 mb-5 ">
+              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                <i className="bi bi-facebook text-primary fs-4"></i> @Curumim
+                Kids
+              </div>
+            </div>
+            <div className="d-flex gap-3 mt-4 mb-5 ">
+              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                <i className="bi bi-tiktok text-primary fs-4"></i> @Curumim_Kids
+              </div>
+            </div>
+            <div className="d-flex gap-3 mt-4 mb-5 ">
+              <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
+                <i className="bi bi-instagram text-primary fs-4"></i>{" "}
+                @Curumim_Kids
+              </div>
             </div>
           </div>
         </div>
