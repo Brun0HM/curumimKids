@@ -14,7 +14,7 @@ const CardProdutos = (props) => {
         </h3>
         <h2 className="text-primary fw-bold">{props.preco}</h2>
         <span className="fs-6 text-break mt-3">{props.descricao}</span>
-        <button className="btn btn-primary rounded-3 mt-3">
+        <button className="btn btn-primary text-white rounded-3 mt-3">
           Comprar
         </button>
       </div>

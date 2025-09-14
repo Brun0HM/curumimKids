@@ -105,3 +105,11 @@ body {
     min-height: 300px;
   }
 }
+
+/* Redimensionar imagens específicas do Twister e Boliche */
+img[src="/src/assets/Twister.jpg"],
+img[src="/src/assets/boliche.jpg"] {
+  width: 356px !important;
+  height: 534px !important;
+  object-fit: cover;
+}

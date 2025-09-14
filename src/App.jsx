@@ -112,7 +112,7 @@ const App = () => {
               <div className="row g-4 w-100 valores-container">
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="https://placehold.co/180x192"
+                    produto="/src/assets/Livro.jpg"
                     title="Livro Interativo Sustentável"
                     preco="R$ 62,00"
                     descricao="Um livro feito com papel reciclado, cheio de atividades educativas sobre sustentabilidade."
@@ -120,7 +120,7 @@ const App = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="https://placehold.co/180x192"
+                    produto="/src/assets/Twister.jpg"
                     title="Twister Sustentável"
                     preco="R$ 30,00"
                     descricao="Versão sustentável do clássico jogo Twister, feito com materiais recicláveis."
@@ -128,7 +128,7 @@ const App = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="https://placehold.co/180x192"
+                    produto="/src/assets/boliche.jpg"
                     title="Boliche Sustentável"
                     preco="R$ 25,00"
                     descricao="Jogo de boliche ecológico que desenvolve coordenação motora e diversão em família."

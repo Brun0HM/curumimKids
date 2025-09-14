@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/Logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,8 +20,7 @@ const Header = () => {
             className="navbar-brand fw-bold text-primary fs-4 d-flex align-items-center gap-2"
             href="#"
           >
-            <i className="bi bi-leaf"></i>
-            Curumim Kids
+            <img src={logo} alt="Logo" height={70} width={70} />
           </a>
 
           <button
