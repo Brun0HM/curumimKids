@@ -4,6 +4,9 @@ import Valores from "./components/Valores";
 import CardProdutos from "./components/CardProdutos";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import livro from "./assets/Livro.jpg";
+import twister from "./assets/Twister.jpg";
+import boliche from "./assets/boliche.jpg";
 
 const App = () => {
   return (
@@ -112,7 +115,7 @@ const App = () => {
               <div className="row g-4 w-100 valores-container">
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="/src/assets/Livro.jpg"
+                    produto={livro}
                     title="Livro Interativo Sustentável"
                     preco="R$ 62,00"
                     descricao="Um livro feito com papel reciclado, cheio de atividades educativas sobre sustentabilidade."
@@ -120,7 +123,7 @@ const App = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="/src/assets/Twister.jpg"
+                    produto={twister}
                     title="Twister Sustentável"
                     preco="R$ 30,00"
                     descricao="Versão sustentável do clássico jogo Twister, feito com materiais recicláveis."
@@ -128,7 +131,7 @@ const App = () => {
                 </div>
                 <div className="col-12 col-md-6 col-lg-4">
                   <CardProdutos
-                    produto="/src/assets/boliche.jpg"
+                    produto={boliche}
                     title="Boliche Sustentável"
                     preco="R$ 25,00"
                     descricao="Jogo de boliche ecológico que desenvolve coordenação motora e diversão em família."
