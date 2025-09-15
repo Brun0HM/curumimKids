@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-12 col-md-6 col-lg-3">
             <div className="d-flex align-items-center gap-2 mb-3">
               <i className="bi bi-leaf fs-4"></i>
-              <h5 className="fw-bold mb-0">Curumim Kids</h5>
+              <h5 className="fw-bold mb-0">Curumim</h5>
             </div>
             <p className="text-white-50">
               Produtos infantis sustentáveis que unem educação, diversão e
@@ -79,7 +79,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-white-50 text-decoration-none d-flex align-items-center gap-2"
               >
-                <i className="bi bi-facebook"></i> @Curumim Kids
+                <i className="bi bi-facebook"></i> @Curumim
               </a>
               <a
                 href="https://tiktok.com/@curumim_kids"
@@ -114,7 +114,7 @@ const Footer = () => {
         <div className="row align-items-center">
           <div className="col-12 col-md-6">
             <p className="text-white-50 small mb-0">
-              © 2025 Curumim Kids. Todos os direitos reservados.
+              © 2025 Curumim. Todos os direitos reservados.
             </p>
           </div>
           <div className="col-12 col-md-6 text-md-end">

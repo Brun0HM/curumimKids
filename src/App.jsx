@@ -29,8 +29,8 @@ const App = () => {
                   <span className="text-secondary">cuidado com o planeta</span>
                 </span>
                 <p className="fs-5 mt-4 text-center fw-medium">
-                  Na Curumim Kids, acreditamos que brincar e aprender podem
-                  andar juntos, sempre respeitando nosso planeta.
+                  Na Curumim, acreditamos que brincar e aprender podem andar
+                  juntos, sempre respeitando nosso planeta.
                 </p>
               </div>
               <div className="d-flex gap-3 mt-4">
@@ -66,8 +66,8 @@ const App = () => {
               <div className="text-center mb-5">
                 <h1 className="fw-bold">Sobre Nós</h1>
                 <span className="fs-5">
-                  A Curumim Kids nasceu do sonho de criar produtos que não
-                  apenas divirtam as crianças, mas também as eduquem sobre a
+                  A Curumim nasceu do sonho de criar produtos que não apenas
+                  divirtam as crianças, mas também as eduquem sobre a
                   importância de cuidar do nosso planeta. Cada produto é
                   cuidadosamente desenvolvido com materiais sustentáveis,
                   promovendo valores de responsabilidade ambiental desde a
@@ -167,7 +167,7 @@ const App = () => {
                 >
                   <div className="bg-body-tertiary p-3 border border-2 border-primary rounded-3 d-flex justify-content-center align-items-center gap-2">
                     <i className="bi bi-facebook text-primary fs-4"></i>{" "}
-                    @Curumim Kids
+                    @Curumim
                   </div>
                 </a>
                 <a
