@@ -1,12 +1,81 @@
-# React + Vite
+# 🌿 Curumim Kids — Loja Sustentável (Projeto Institucional)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Finalizado-brightgreen?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Vite-Fast%20Builds-purple?style=for-the-badge&logo=vite"/>
+  <img src="https://img.shields.io/badge/Projeto-Institucional-1E90FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Design-Responsivo-ff69b4?style=for-the-badge"/>
+</p>
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📚 Sobre o projeto
 
-## Expanding the ESLint configuration
+O **Curumim Kids** é um site institucional desenvolvido para o curso técnico de Administração da ETEC.  
+A proposta é representar uma **loja sustentável**, com foco em responsabilidade ambiental e consumo consciente.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+➡️ Este projeto é **100% visual**, sem backend ou funcionalidades dinâmicas.
+
+Foi criado para demonstrar:
+
+- Organização visual  
+- Uso de React com Vite  
+- Layout responsivo  
+- Apresentação profissional para portfólio  
+
+---
+
+## 💡 Objetivos
+
+- Criar a identidade institucional de uma loja infantil sustentável.   
+- Praticar **frontend moderno**, componentes reutilizáveis e responsividade.  
+- Fortalecer o portfólio com um projeto visual elegante.
+
+---
+
+## 🛠️ Tecnologias usadas
+
+| Tecnologia | Uso |
+|-----------|------|
+| **React** | Componentização e SPA |
+| **Vite** | Dev server rápido e bundler moderno |
+| **JavaScript** | Lógica e estrutura dos componentes |
+| **CSS / Sass** | Estilização customizada e responsiva |
+
+
+
+
+---
+
+## 🚀 Como rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/Brun0HM/curumimKids.git
+Entre na pasta:
+```
+```bash
+Copy code
+cd curumimKids
+Instale as dependências:
+```
+```bash
+Copy code
+npm install
+Execute o projeto:
+```
+```bash
+Copy code
+npm run dev
+Acesse no navegador:
+```
+
+
+
+🧑‍💻 Desenvolvedor
+<table> <tr> <td align="center"> <img src="https://avatars.githubusercontent.com/u/160606373" width="120px" style="border-radius: 10px;" alt="Foto do Desenvolvedor"/><br/> <sub><b>Bruno Martins</b></sub><br/> 💻 Desenvolvedor Front-End </td> </tr> </table>
+
+📞 Contato
+<p> <a href="https://www.linkedin.com/in/brunomartinsdevv/"> <img src="https://img.shields.io/badge/LinkedIn-Bruno%20Martins-blue?style=for-the-badge&logo=linkedin"/> </a> </p>
